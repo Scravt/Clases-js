@@ -1,0 +1,11 @@
+configuracion global 
+
+git config --global user.name "Tu Nombre"
+git config --global user.email "tuemail@dominio.com"
+
+
+generar nueva clave ssh
+ssh-keygen -t rsa -b 4096 -C "tuemail@dominio.com"
+
+Para obtener la clave pública:
+cat ~/.ssh/id_rsa.pub
